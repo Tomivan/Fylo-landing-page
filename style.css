@@ -1,8 +1,13 @@
 * {
     box-sizing: border-box;
 }
+@font-face {
+    font-family: "Raleway" "Open Sans";
+    src: url("(https://fonts.google.com/specimen/Raleway)");
+    src: url("(https://fonts.google.com/specimen/Open+Sans)");
+}
 body {
-    font-family: Open Sans "(https://fonts.google.com/specimen/Open+Sans)"
+    font-family: "Open Sans"
 }
 ul {
     display: flex;
@@ -13,19 +18,18 @@ li {
     padding-left: 50px;  
 }
 h3{
-    font-family: Raleway "(https://fonts.google.com/specimen/Raleway)";
-    margin-top: 15%;
+    font-family: 'Raleway', Arial, sans-serif;
+    margin-top: 20%;
     margin-left: 5%;
     font-size: 35px;
+    font-weight: bold;
 }
 h4 {
     font-size: 30px;
+    font-weight: bold;
 }
 p{
     color: #000129;
-}
-:placeholder{
-    margin-left: 10px;
 }
 .logo {
     position: absolute;
@@ -52,6 +56,7 @@ p{
 }
 .top-layer-p {
     margin-left: 5%;
+    margin-top: 2%;
     font-size: 22px;
 }
 .input-box{
@@ -67,9 +72,12 @@ p{
     margin-left: 10px;
 }
 .middle-layer {
-    margin-top: -15%;
+    margin-top: -20%;
     background-color: #f9f8fd;
     height: 70vh;
+}
+.middle-layer-h {
+    margin-bottom: 2%;
 }
 .illustration-2 {
     height: 90%;
@@ -174,8 +182,19 @@ p{
 }
 .footer-info {
    display: flex;
-   justify-content: space-between;
-   margin-left: 5%; 
+   justify-content: space-around;
+   margin-left: -4%; 
    color: #ffffff;
    margin-top: 7%;
+}
+.signature {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-instagram {
+    margin-left: 15px;
+}
+.fa-twitter {
+    margin: 15px;
 }
