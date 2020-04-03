@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Open Sans "(https://fonts.google.com/specimen/Open+Sans)"
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+li {
+    padding-left: 50px;  
+}
+h3{
+    font-family: Raleway "(https://fonts.google.com/specimen/Raleway)";
+    margin-top: 15%;
+    margin-left: 5%;
+    font-size: 35px;
+}
+.logo {
+    position: absolute;
+    top: 8%;
+    left: 6%;
+}
+.links {
+    position: absolute;
+    top: 8%;
+    right: 5%;
+}
+.illustration-1 {
+    height: 60%;
+    width: 45%;
+    position: absolute;
+    right: 5%;
+    top: 20%;
+}
+.top-layer-p {
+    margin-left: 5%;
+    font-size: 22px;
+}
+.input-box{
+    margin-left: 5%;
+}
+.input{
+    width: 27%;
+    height: 40px;
+}
+.get-started {
+    width: 15%;
+    height: 40px;
+    margin-left: 10px;
+}
+.middle-layer {
+    margin-top: 20%;
+}
