@@ -18,10 +18,25 @@ h3{
     margin-left: 5%;
     font-size: 35px;
 }
+h4 {
+    font-size: 30px;
+}
+p{
+    color: #000129;
+}
+:placeholder{
+    margin-left: 10px;
+}
 .logo {
     position: absolute;
     top: 8%;
     left: 6%;
+}
+.logo-2 {
+    position: relative;
+    top: 10vh;
+    left: 6%;
+    color: #ffffff;
 }
 .links {
     position: absolute;
@@ -52,5 +67,115 @@ h3{
     margin-left: 10px;
 }
 .middle-layer {
+    margin-top: -15%;
+    background-color: #f9f8fd;
+    height: 70vh;
+}
+.illustration-2 {
+    height: 90%;
+    width: 45%;
+    position: relative;
+    left: 50%;
+    top: -65vh;
+}
+.middle-layer-p {
+    margin-left: 5%;
+}
+.middle-layer-link {
+    margin-left: 5%;
+    color: #8aa9a5;
+    text-decoration: underline;
+    font-size: 20px;
+}
+.curve {
     margin-top: 20%;
+    height: 40%;
+}
+.ceo {
+    border-radius: 50%;
+    height: 5vh;
+}
+.ceo-note {
+    margin-top: 2%;
+    margin-left: 5%;
+    width: 27vw;
+    height: 35vh;
+    background-color: #ffffff;
+    padding: 25px;
+}
+.ceo-info {
+    display: flex;
+}
+.info-p{
+    margin-left: 5px;
+}
+.main-p{
+    color: #ffffff;
+}
+.name{
+    font-weight: bold;
+}
+.title {
+    font-size: 10px;
+    margin-top: -10px;
+}
+.aside {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+}
+.aside-button{
+    width: 15vw;
+    height: 6vh;
+}
+.aside-input {
+    width: 40vw;
+    margin-bottom: 2%;
+    height: 6vh;
+    border-radius: 3px;
+    border: none;
+}
+.bottom-layer-info {
+    display: flex;
+    margin-left: 5%;
+    color: #ffffff;
+    position: relative;
+    top: 30%;
+}
+
+.bottom-layer {
+    background-color:#565a85;
+    height: 45vh;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.about-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.icon-phone {
+    display: flex;
+}
+.icon-email {
+    display: flex;
+}
+.footer {
+    background-color: #050638;
+    height: 50vh;
+}
+.footer-info {
+   display: flex;
+   justify-content: space-between;
+   margin-left: 5%; 
+   color: #ffffff;
+   margin-top: 7%;
 }
